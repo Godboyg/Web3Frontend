@@ -5,8 +5,6 @@ import axios from 'axios';
 
 function page() {
 
-  var geistSans = new SomeClass(); 
-
   const [ value , setValue ] = useState();
   const [ balance , setBalance ] = useState();
   const [ multiplier , setMultiplier ] = useState("2.00");
