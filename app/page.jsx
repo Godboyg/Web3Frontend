@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import "./globals.css"
-import axios from 'axios'
+import "./globals.css";
+import axios from 'axios';
 
 function page() {
 
