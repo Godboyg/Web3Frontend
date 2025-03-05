@@ -115,7 +115,7 @@ function page() {
               <p>100</p>
               <div className="h-[0.5vw] w-[0.5vw] rounded-t bg-zinc-700 z-99"></div>
             </div> 
-            <div class="w-12 h-15 flex items-center justify-center [filter:drop-shadow(10px_10px_10px_rgba(0,0,0,0.5))] text-[1.2vw] text-bold text-black absolute top-[-95%] right-[30%] z-99 bg-white [clip-path:polygon(50%_0%,_100%_20%,_100%_80%,_50%_100%,_0%_80%,_0%_20%)]">68.71</div>
+            <div className="w-12 h-15 flex items-center justify-center [filter:drop-shadow(10px_10px_10px_rgba(0,0,0,0.5))] text-[1.2vw] text-bold text-black absolute top-[-95%] right-[30%] z-99 bg-white [clip-path:polygon(50%_0%,_100%_20%,_100%_80%,_50%_100%,_0%_80%,_0%_20%)]">68.71</div>
             <div className="w-[55vw] h-[8vh] bg-zinc-700 rounded-[30vw] py-[1vw] px-[1vw] flex items-center justify-center">
               <div className="bg-zinc-900 w-full rounded-2xl flex items-center justify-center px-[0.8vw] py-[0.6vw]">
                 <input type="range" className='w-full' id="rangeInput" min="0" max="100" value={val} onChange={handleInputChange} style={{
